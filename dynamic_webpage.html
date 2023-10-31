@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Records</title>
+</head>
+<body>
+    <h1>Welcome to the Student Records Page</h1>
+    <ul>
+        <!-- Python code to generate the student records dynamically -->
+        {% for student in students %}
+        <li>{{ student }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
